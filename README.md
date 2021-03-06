@@ -1,0 +1,5 @@
+# coronary-predictor
+Performs a theoretical diagnosis using Logistic Regression to output a yes/no answer along with a percentage that corresponds to the presence of, or future likelihood of an individual contracting any variants of coronary artery disease. The model takes in an input consisting of various physiological or habitual traits of an individual such as age, genetic history of heart disease, smoking background, weight, height, male or female, fitness level, etc. 
+
+## Design and Implementation
+A heart disease dataset sourced from the UC Irvine Machine Learning repository(https://archive.ics.uci.edu/ml/datasets/heart+disease) was used as training data to generate the prediction model. With this data set, an optimized cost/error function was executed to calculate the difference between the dataset line and the prediction line. Using gradient descent, we minimize this error between these two lines which provided the parameters(theta)/model needed to make accurate predictions. This generated model achieved ~86% accuracy on new data/inputs.
