@@ -1,7 +1,7 @@
 %%=== PleaseSeeThroughMyBrokenHeart ===% 
 %
-% Purpose: To predict presence of Coronary Artery 
-% Disease
+% Purpose: To theoretically diagnose presence or future 
+% likelihood of Coronary Artery Disease
 
 clc; clear; close all
 
